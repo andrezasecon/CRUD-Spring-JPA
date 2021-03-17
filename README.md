@@ -10,7 +10,7 @@ JDK 11
 
 Sprint Tool Suit 4 ou qualquer IDE de sua preferência
 
-Postman
+Postman Client
 
 
 
