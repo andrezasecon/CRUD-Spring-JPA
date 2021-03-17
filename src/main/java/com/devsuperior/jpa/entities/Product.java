@@ -12,6 +12,8 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity // informa ao Spring que esta classe é uma entidate no banco
 @Table(name = "tb_product") // nomeia a tabela
 public class Product {
@@ -24,6 +26,7 @@ public class Product {
 	private Double price;
 	private String imgUrl;
 	
+	@JsonIgnore
 	@ManyToMany // informa ao Spring que o relacionamento será de muitos para muitos
 	@JoinTable(name = "tb_product_category",
 	joinColumns = @JoinColumn(name = "product_id"),
