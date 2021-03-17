@@ -89,8 +89,20 @@ INSERT INTO tb_product_category (product_id, category_id) VALUES (4, 3);
 - Você deve ter instalado no ambiente o app postman.
 - Startar o projeto no STS ou na IDE que estiver utilizando
 
+### Consultar produtos
+
 Criar uma Workspace e adicionar uma requisição GET apontando para localhost:8080/products, clicar em Send, resultado esperado:
 
 ![](https://github.com/andrezasecon/img/blob/main/img-postman.PNG)
+
+### Consultar Categorias
+
+Adicionar uma requisição GET apontando para localhost:8080/category, clicar em Send, resultado esperado:
+
+![](https://github.com/andrezasecon/img/blob/main/img-postman-category.PNG)
+
+
+
+
 
 
