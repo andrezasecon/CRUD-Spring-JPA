@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 
@@ -19,6 +20,7 @@ public class Category {
 	private Long id;
 	private String name;
 	
+	@ManyToMany(mappedBy = "categories") // informa ao Spring o relacionamento muitos para muitos
 	private Set<Product> products = new HashSet<>();
 	
 	public Category() {
