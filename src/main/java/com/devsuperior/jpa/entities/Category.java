@@ -10,6 +10,8 @@ import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 
 @Entity // informa ao Spring que esta classe é uma entidate no banco
 @Table(name = "tb_category") // nomeia a tabela
@@ -20,6 +22,7 @@ public class Category {
 	private Long id;
 	private String name;
 	
+	@JsonIgnore
 	@ManyToMany(mappedBy = "categories") // informa ao Spring o relacionamento muitos para muitos
 	private Set<Product> products = new HashSet<>();
 	

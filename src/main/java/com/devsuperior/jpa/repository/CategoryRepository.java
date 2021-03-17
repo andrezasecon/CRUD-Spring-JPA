@@ -4,10 +4,11 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import com.devsuperior.jpa.entities.Category;
 import com.devsuperior.jpa.entities.Product;
 
-public interface ProductRepository extends JpaRepository<Product, Long> {
+public interface CategoryRepository extends JpaRepository<Category, Long> {
 
-	List<Product> findAll();
+	List<Category> findAll();
 
 }
