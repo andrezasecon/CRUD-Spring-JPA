@@ -1,4 +1,4 @@
-# PROJETO SIMPLES EM JAVA COM SPRING BOOT E JPA
+# PROJETO CRUD PRODUTOS E CATEGORIAS EM JAVA COM SPRING BOOT E JPA
 
 O projeto consiste em um sistema CRUD para categorias e produtos utilizando persistencia com Spring Boot e JPA, banco de dados em memória com H2 e o Postman como cliente para requisições http.
 
