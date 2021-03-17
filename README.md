@@ -91,6 +91,6 @@ INSERT INTO tb_product_category (product_id, category_id) VALUES (4, 3);
 
 Criar uma Workspace e adicionar uma requisição GET apontando para localhost:8080/products, clicar em Send, resultado esperado:
 
-![](https://github.com/andrezasecon/img/blob/main/img-postman.png)
+![](https://github.com/andrezasecon/img/blob/main/img-postman.PNG)
 
 
