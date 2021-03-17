@@ -84,4 +84,13 @@ INSERT INTO tb_product_category (product_id, category_id) VALUES (2, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (3, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (4, 3);
 ```
+## Requisição Client utilizando o Postman
+
+- Você deve ter instalado no ambiente o app postman.
+- Startar o projeto no STS ou na IDE que estiver utilizando
+
+Criar uma Workspace e adicionar uma requisição GET apontando para localhost:8080/products, clicar em Send, resultado esperado:
+
+![](https://github.com/andrezasecon/img/blob/main/img-postman.png)
+
 
