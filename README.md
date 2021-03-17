@@ -24,18 +24,18 @@ Postman
 
 ## Diagrama de classe
 
-![](C:\Users\andrezasecon\Desktop\img-diagrama-classes.PNG)
+![](https://github.com/andrezasecon/img/blob/main/img-diagrama-classes.PNG)
 
 ## Modelo entidade relacional do banco de dados
 
 
 
-![](C:\Users\andrezasecon\Desktop\img-bd-1.png)
+![](https://github.com/andrezasecon/img/blob/main/img-bd-1.png)
 
 
 
-![](C:\Users\andrezasecon\Desktop\img-bd-2.png)
+![](https://github.com/andrezasecon/img/blob/main/img-bd-2.png)
 
 
 
-![](C:\Users\andrezasecon\Desktop\img-bd-3.png)
+![](https://github.com/andrezasecon/img/blob/main/img-bd-3.png)
