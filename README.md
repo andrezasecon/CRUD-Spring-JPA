@@ -40,7 +40,7 @@ Postman
 
 ![](https://github.com/andrezasecon/img/blob/main/img-bd-3.png)
 
-#### Configuração do application.properties
+## Configuração do application.properties
 
 *** Abrir o arquivo application.properties em src/main/resources  e colar o conteúdo abaixo ***
 
@@ -48,7 +48,7 @@ Postman
 spring.profiles.active=test
 ```
 
-#### Configuração do application-test.properties
+## Configuração do application-test.properties
 
 *** Criar o arquivo application-test.proporties em src/main/resources ***
 
@@ -64,7 +64,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 ```
 
-#### Populando o banco de datos com data.sql
+## Populando o banco de dados com o arquivo data.sql
 
 *** Criar o arquivo data.sql em src/main/resources, colar o conteúdo abaixo e salvar ***
 
